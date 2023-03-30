@@ -1,11 +1,8 @@
-import { onMainPage } from "../support/QAUTORIA/loginPage"
+import { mainPage } from "../support/QAUTORIA/loginPage"
 
-describe('Auto ria suit', ()=>{
-      it('Click on Used cars button', ()=> {
-        onMainPage.openAutoRia()
-        onMainPage.clickOnUsedcars()
-      })
-
-
-
+describe('Auto ria suite', () => {
+    it('Click on Used cars button', () => {
+        mainPage.openAutoRia()
+        mainPage.clickOnUsedCars()
+    })
 })
